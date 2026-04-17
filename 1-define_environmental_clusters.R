@@ -50,7 +50,7 @@ corrmatrix <- cor(env_data)
 corrplot(corrmatrix, method = 'number')
 
 #use uncorrelated variables
-# Select relevant columns for clustering (columns 1–4 and 30–41 after removing col 1)
+# Select relevant columns for clustering
 vars_to_use <- c("Light_Intensity(PAR)",
                  "Ambient_Humidity",
                  "Ambient_Temperature",
